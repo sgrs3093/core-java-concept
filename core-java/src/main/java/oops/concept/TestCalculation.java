@@ -4,6 +4,10 @@ import java.util.UUID;
 
 public class TestCalculation
 {
+    //int a=10;
+    //int b=20;
+
+    int a = 10, b = 20;
 
     public static void main (String[] args)
     {
@@ -27,6 +31,9 @@ public class TestCalculation
         System.out.println(number);
 
         System.out.println(new Calculation().fact());
+
+        Calculation c = new Calculation();
+        Calculation c1 = new Calculation();
 
     }
 
